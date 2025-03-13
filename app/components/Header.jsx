@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Header = ({ isDarkMode }) => {
   return (
-    <div className="p-20 w-full max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4">
+    <div className="w-full max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -58,7 +58,7 @@ const Header = ({ isDarkMode }) => {
           <Image src={assets.right_arrow_white} alt="" className="w-4" />
         </a>
         <a
-          href="/Resume - Nur Irfan Izzat.pdf"
+          href="/Resume-Nur_Irfan_Izzat.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 dark:bg-white dark:text-black">
           My Resume
