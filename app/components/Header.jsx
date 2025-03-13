@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Header = ({ isDarkMode }) => {
   return (
-    <div className="w-full max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div className="p-20 w-full max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4">
       <motion.div initial={{ y: -20, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.6, delay: 0.3 }} className="items-center pb-5 px-4">
         <p className="italic text-lg sm:text-2xl md:text-3xl font-Ovo max-w-xs sm:max-w-lg break-words">"When you can't change the direction of the wind, adjust your sails"</p>
         <p className="font-Outfit text-sm sm:text-lg">- H. Jackson Brown Jr. (American Author)</p>
