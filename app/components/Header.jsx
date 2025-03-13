@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 const Header = ({ isDarkMode }) => {
   return (
-    <div className="w-full max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div className="p-20 w-full max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4">
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
